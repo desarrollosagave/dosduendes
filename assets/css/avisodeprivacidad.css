@@ -1,0 +1,96 @@
+:root {
+    --font-coco-gothic: "coco-gothic";
+    --font-cardo: 'Cardo', serif;
+    --font-nunito-sans: 'Nunito Sans', sans-serif;
+    --color-black-light: #333;
+    --color-white: #FFFFFF;
+    --color-beige: #FBF5EF;
+    --color-white-light: #FEFEFE;
+    --color-blue: #032734;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-beige);
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: 4rem auto 0;
+    text-align: center;
+    padding: 0 2rem 3rem;
+}
+
+.contenedor .logotipo{
+    width: 200px;
+    margin: 0 auto 1rem;
+}
+
+.contenedor h2 {
+    font-family: var(--font-coco-gothic);
+    font-size: 2rem;
+    line-height: 38px;
+    color: var(--color-blue);
+    margin-block-start: 0;
+    margin-block-end: 2rem;
+}
+
+.contenedor p {
+    text-align: justify;
+    font-family: var(--font-nunito-sans);
+    font-size: 1rem;
+    line-height: 23px;
+    color: var(--color-blue);
+    padding-bottom: 0.5rem;
+}
+
+.contenedor p .sub{
+    font-family: var(--font-nunito-sans);
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: justify;
+    text-decoration:underline;
+    color: var(--color-blue);
+    padding-bottom: 0.5rem;
+}
+
+a.home {
+    display: block;
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-white);
+    font-family: var(--font-nunito-sans);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: var(--color-white);
+    padding: 10px 15px;
+    width: 300px;
+    margin: 3rem auto 0;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 575px) {
+    .contenedor {
+        margin: 2rem auto 1rem;
+    }
+
+    .contenedor .logotipo {
+        width: 200px;
+        margin: 0 auto 1rem;
+    }
+
+    .contenedor h2 {
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-block-end: 2rem;
+    }
+
+    a.home {
+        margin: 2rem auto;
+        width: 250px;
+    }
+}
