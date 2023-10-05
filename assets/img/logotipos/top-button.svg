@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>top-button</title>
+	<defs>
+		<image  width="24" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAMAAAA/gEgKAAAAAXNSR0IB2cksfwAAAKtQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////za+omQAAADl0Uk5TAC4tO/H0Qem8SOtCgDzqTkvoOTPnUVU2MVxY5SnjX1vkLCfhYmfgJSDdbmrfIx7bcnnZHAKkGH8ml0q6PQAAAI5JREFUeJztzlcOgkAYReGDBVDHgr333unsf2WGEDIDwQWYeF/+zPleBuS0EoUrV6p6UdcN0zQKpFZvCNFstfO9Y3URgl5/kO1DY0QMjK2J2qczjQSYL5ayr9YbUmC726f9cDwhgfPlmvTb/YEKPF/v+NiOSxZwHRs8PyAPBL6n/k1Cbn/4EQjDLxBFyuMDcrcKkVnEPKMAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="13" y="9"/>
+</svg>
