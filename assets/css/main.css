@@ -469,7 +469,7 @@ body {
 .section-four #tipologiaD .div-left img,
 .section-four #tipologiaE .div-left img {
     /* width: 710px; */
-    width: 80%;
+    width: 80%; 
     height: fit-content;
 }
 
