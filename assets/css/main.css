@@ -1676,8 +1676,8 @@ body {
     .section-four #tipologiaE .div-left img {
         /* height: max-content;
         width: 70%; */
-        width: 63%;
-        height: 50vh;
+        width: 80vw;
+        height: 35vh;
     }
 
     #tipologias.nav-tabs .nav-link {
