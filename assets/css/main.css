@@ -464,9 +464,12 @@ body {
 }
 
 .section-four #tipologiaA .div-left img,
-.section-four #tipologiaB .div-left img {
+.section-four #tipologiaB .div-left img,
+.section-four #tipologiaC .div-left img,
+.section-four #tipologiaD .div-left img,
+.section-four #tipologiaE .div-left img {
     /* width: 710px; */
-    width: auto;
+    width: 80%;
     height: fit-content;
 }
 
